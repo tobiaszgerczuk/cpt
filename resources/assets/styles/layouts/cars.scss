@@ -1,0 +1,10 @@
+.cars{
+    display: flex;
+    gap: 1rem;
+    &-car{
+        flex-basis: 30%;
+        img{
+            max-width: 100%;
+        }
+    }
+}
